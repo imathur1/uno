@@ -1,0 +1,38 @@
+body, html {
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    height: 100%;
+}
+
+.container-fluid {
+    background-image: url("/static/images/home_bg.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.input-group {
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+#username {
+    font-size: 25px;
+}
+
+#playButton {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#outer {
+    background-color: #007bff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 0px 10px 5px 10px;
+}
+
+#error {
+    font-weight: bold;
+    color: white;
+}
